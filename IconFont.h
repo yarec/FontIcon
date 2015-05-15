@@ -5,6 +5,8 @@
 //
 
 
+#import "Foundation/Foundation.h"
+#import "UIKit/UIKit.h"
 #import "FontHeader.h"
 @interface IconFont : NSObject
 
