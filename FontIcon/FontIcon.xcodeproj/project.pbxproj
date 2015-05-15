@@ -21,6 +21,7 @@
 		73F825CC1B05A18500ACFBC9 /* ionIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73F825C21B05A18500ACFBC9 /* ionIcons.ttf */; };
 		73F825CD1B05A18500ACFBC9 /* zocialRegularWebfont.json in Resources */ = {isa = PBXBuildFile; fileRef = 73F825C41B05A18500ACFBC9 /* zocialRegularWebfont.json */; };
 		73F825CE1B05A18500ACFBC9 /* zocialRegularWebfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73F825C51B05A18500ACFBC9 /* zocialRegularWebfont.ttf */; };
+		73F825D21B05A36A00ACFBC9 /* FontHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F825D11B05A36A00ACFBC9 /* FontHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		73F825C21B05A18500ACFBC9 /* ionIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionIcons.ttf; sourceTree = "<group>"; };
 		73F825C41B05A18500ACFBC9 /* zocialRegularWebfont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zocialRegularWebfont.json; sourceTree = "<group>"; };
 		73F825C51B05A18500ACFBC9 /* zocialRegularWebfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocialRegularWebfont.ttf; sourceTree = "<group>"; };
+		73F825D11B05A36A00ACFBC9 /* FontHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontHeader.h; path = ../../FontHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		73F8259B1B05A13300ACFBC9 /* FontIcon */ = {
 			isa = PBXGroup;
 			children = (
+				73F825D11B05A36A00ACFBC9 /* FontHeader.h */,
 				73F825B51B05A15800ACFBC9 /* IconFont.h */,
 				73F825B61B05A15800ACFBC9 /* IconFont.m */,
 				73F8259E1B05A13300ACFBC9 /* FontIcon.h */,
@@ -180,6 +183,7 @@
 			files = (
 				73F825B71B05A15800ACFBC9 /* IconFont.h in Headers */,
 				73F8259F1B05A13300ACFBC9 /* FontIcon.h in Headers */,
+				73F825D21B05A36A00ACFBC9 /* FontHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
